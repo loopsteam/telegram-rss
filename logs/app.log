@@ -1,0 +1,305 @@
+2025-02-27 23:20:19,165 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-27 23:21:38,068 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-27 23:21:38,070 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-02-27 23:21:41,844 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-02-27 23:21:52,162 - telethon.client.users - INFO - Phone migrated to 5
+2025-02-27 23:21:52,521 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2025-02-27 23:21:52,881 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-02-27 23:21:52,881 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-02-27 23:21:52,882 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-27 23:21:54,320 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:22:18,902 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-27 23:22:18,904 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-27 23:22:18,904 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-27 23:22:18,905 - app.scheduler - INFO - Scheduler started successfully
+2025-02-27 23:22:18,905 - app.main - INFO - Application started successfully
+2025-02-27 23:22:18,906 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:21:38 UTC)" (scheduled at 2025-02-27 15:21:38.068036+00:00)
+2025-02-27 23:22:18,906 - app.scheduler - INFO - Starting feed update at 2025-02-27 15:22:18.906528+00:00
+2025-02-27 23:22:34,677 - app.telegram_client - INFO - Retrieved 14 new messages
+2025-02-27 23:22:34,677 - app.scheduler - INFO - Feed updated successfully, got 14 messages
+2025-02-27 23:22:34,677 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:21:38 UTC)" executed successfully
+2025-02-27 23:23:31,190 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-27 23:23:31,190 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:23:31,196 - app.telegram_client - INFO - Telegram client stopped
+2025-02-27 23:23:31,196 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-27 23:23:31,196 - app.main - INFO - Application shutdown successfully
+2025-02-27 23:23:31,197 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-27 23:24:39,370 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-27 23:24:39,371 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-27 23:24:39,435 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:24:40,036 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-27 23:24:40,039 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-27 23:24:40,039 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-27 23:24:40,039 - app.scheduler - INFO - Scheduler started successfully
+2025-02-27 23:24:40,039 - app.main - INFO - Application started successfully
+2025-02-27 23:24:40,040 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:24:39 UTC)" (scheduled at 2025-02-27 15:24:39.369411+00:00)
+2025-02-27 23:24:40,040 - app.scheduler - INFO - Starting feed update at 2025-02-27 15:24:40.040728+00:00
+2025-02-27 23:24:43,254 - app.main - WARNING - No messages available in cache
+2025-02-27 23:24:54,649 - app.main - WARNING - No messages available in cache
+2025-02-27 23:24:55,890 - app.telegram_client - INFO - Retrieved 14 new messages
+2025-02-27 23:24:55,890 - app.scheduler - INFO - Feed updated successfully, got 14 messages
+2025-02-27 23:24:55,891 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:24:39 UTC)" executed successfully
+2025-02-27 23:25:30,218 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-27 23:25:30,218 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:25:30,226 - app.telegram_client - INFO - Telegram client stopped
+2025-02-27 23:25:30,226 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-27 23:25:30,226 - app.main - INFO - Application shutdown successfully
+2025-02-27 23:25:30,226 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-27 23:29:07,081 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-27 23:29:07,082 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-27 23:29:07,151 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:29:07,725 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-27 23:29:07,726 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-27 23:29:07,727 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-27 23:29:07,727 - app.scheduler - INFO - Scheduler started successfully
+2025-02-27 23:29:07,727 - app.main - INFO - Application started successfully
+2025-02-27 23:29:07,727 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:29:07 UTC)" (scheduled at 2025-02-27 15:29:07.081984+00:00)
+2025-02-27 23:29:07,727 - app.scheduler - INFO - Starting feed update at 2025-02-27 15:29:07.727341+00:00
+2025-02-27 23:29:23,614 - app.telegram_client - INFO - Retrieved 14 new messages
+2025-02-27 23:29:23,614 - app.scheduler - INFO - Feed updated successfully, got 14 messages
+2025-02-27 23:29:23,614 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:29:07 UTC)" executed successfully
+2025-02-27 23:29:44,814 - app.main - ERROR - Error generating RSS feed: decoding to str: need a bytes-like object, int found
+2025-02-27 23:29:57,315 - app.main - ERROR - Error generating RSS feed: decoding to str: need a bytes-like object, int found
+2025-02-27 23:30:14,584 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-27 23:30:14,584 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:30:14,592 - app.telegram_client - INFO - Telegram client stopped
+2025-02-27 23:30:14,592 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-27 23:30:14,592 - app.main - INFO - Application shutdown successfully
+2025-02-27 23:30:14,592 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-27 23:32:26,598 - app.telegram_client - INFO - TelegramFeedClient initialized successfully
+2025-02-27 23:32:26,601 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-27 23:32:26,604 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-27 23:32:26,670 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:32:27,062 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-27 23:32:27,064 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-27 23:32:27,064 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-27 23:32:27,064 - app.scheduler - INFO - Scheduler started successfully
+2025-02-27 23:32:27,064 - app.main - INFO - Application started successfully
+2025-02-27 23:32:27,064 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:32:26 UTC)" (scheduled at 2025-02-27 15:32:26.601684+00:00)
+2025-02-27 23:32:27,064 - app.scheduler - INFO - Starting feed update at 2025-02-27 15:32:27.064234+00:00
+2025-02-27 23:32:27,181 - app.telegram_client - INFO - Last message ID updated to 5991
+2025-02-27 23:32:27,181 - app.telegram_client - INFO - Retrieved 1 new messages
+2025-02-27 23:32:27,181 - app.scheduler - INFO - Feed updated successfully, got 1 messages
+2025-02-27 23:32:27,181 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 16:32:26 UTC)" executed successfully
+2025-02-27 23:33:03,790 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-27 23:33:03,790 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:33:03,797 - app.telegram_client - INFO - Telegram client stopped successfully
+2025-02-27 23:33:03,797 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-27 23:33:03,798 - app.main - INFO - Application shutdown successfully
+2025-02-27 23:33:03,798 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-27 23:53:18,687 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-27 23:53:18,689 - apscheduler.scheduler - INFO - Added job "RSSFeedGenerator.update_feed" to job store "default"
+2025-02-27 23:53:18,690 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-27 23:53:18,690 - app.scheduler - INFO - Scheduler started - updating feed every hour
+2025-02-27 23:53:18,690 - app.main - INFO - Application started
+2025-02-27 23:53:18,690 - apscheduler.executors.default - INFO - Running job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 00:53:18 CST)" (scheduled at 2025-02-27 23:53:18.687772+08:00)
+2025-02-27 23:53:18,690 - app.feed_generator - INFO - Updating feed...
+2025-02-27 23:53:18,690 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-27 23:53:18,761 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:53:20,487 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-27 23:53:20,488 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-27 23:53:20,495 - app.feed_generator - INFO - Feed updated successfully
+2025-02-27 23:53:20,495 - apscheduler.executors.default - INFO - Job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 00:53:18 CST)" executed successfully
+2025-02-27 23:54:13,641 - app.scheduler - INFO - Scheduler stopped
+2025-02-27 23:54:13,641 - app.main - INFO - Application shutdown
+2025-02-27 23:54:13,641 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-27 23:55:45,524 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-27 23:55:45,526 - apscheduler.scheduler - INFO - Added job "RSSFeedGenerator.update_feed" to job store "default"
+2025-02-27 23:55:45,527 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-27 23:55:45,527 - app.scheduler - INFO - Scheduler started - updating feed every hour
+2025-02-27 23:55:45,527 - app.main - INFO - Application started
+2025-02-27 23:55:45,527 - apscheduler.executors.default - INFO - Running job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 00:55:45 CST)" (scheduled at 2025-02-27 23:55:45.524383+08:00)
+2025-02-27 23:55:45,527 - app.feed_generator - INFO - Updating feed...
+2025-02-27 23:55:45,528 - app.feed_generator - INFO - Feed updated successfully
+2025-02-27 23:55:45,528 - apscheduler.executors.default - INFO - Job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 00:55:45 CST)" executed successfully
+2025-02-27 23:59:05,658 - app.scheduler - INFO - Scheduler stopped
+2025-02-27 23:59:05,658 - app.main - INFO - Application shutdown
+2025-02-27 23:59:05,658 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 00:00:08,872 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 00:00:08,873 - apscheduler.scheduler - INFO - Added job "RSSFeedGenerator.update_feed" to job store "default"
+2025-02-28 00:00:08,874 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 00:00:08,874 - app.scheduler - INFO - Scheduler started - updating feed every hour
+2025-02-28 00:00:08,874 - app.main - INFO - Application started
+2025-02-28 00:00:08,874 - apscheduler.executors.default - INFO - Running job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:00:08 CST)" (scheduled at 2025-02-28 00:00:08.872786+08:00)
+2025-02-28 00:00:08,874 - app.feed_generator - INFO - Updating feed...
+2025-02-28 00:00:08,875 - app.feed_generator - INFO - Feed updated successfully
+2025-02-28 00:00:08,875 - apscheduler.executors.default - INFO - Job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:00:08 CST)" executed successfully
+2025-02-28 00:00:44,179 - app.scheduler - INFO - Scheduler stopped
+2025-02-28 00:00:44,179 - app.main - INFO - Application shutdown
+2025-02-28 00:00:44,179 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 00:02:30,611 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 00:02:30,614 - apscheduler.scheduler - INFO - Added job "RSSFeedGenerator.update_feed" to job store "default"
+2025-02-28 00:02:30,615 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 00:02:30,615 - app.scheduler - INFO - Scheduler started - updating feed every hour
+2025-02-28 00:02:30,615 - app.main - INFO - Application started
+2025-02-28 00:02:30,615 - apscheduler.executors.default - INFO - Running job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:02:30 CST)" (scheduled at 2025-02-28 00:02:30.611410+08:00)
+2025-02-28 00:02:30,615 - app.feed_generator - INFO - Updating feed...
+2025-02-28 00:02:30,621 - app.feed_generator - INFO - Feed updated successfully
+2025-02-28 00:02:30,621 - apscheduler.executors.default - INFO - Job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:02:30 CST)" executed successfully
+2025-02-28 00:03:07,343 - app.scheduler - INFO - Scheduler stopped
+2025-02-28 00:03:07,343 - app.main - INFO - Application shutdown
+2025-02-28 00:03:07,343 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 00:08:51,069 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 00:08:51,071 - apscheduler.scheduler - INFO - Added job "RSSFeedGenerator.update_feed" to job store "default"
+2025-02-28 00:08:51,071 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 00:08:51,071 - app.scheduler - INFO - Scheduler started - updating feed every hour
+2025-02-28 00:08:51,071 - app.main - INFO - Application started
+2025-02-28 00:08:51,071 - apscheduler.executors.default - INFO - Running job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:08:51 CST)" (scheduled at 2025-02-28 00:08:51.068436+08:00)
+2025-02-28 00:08:51,071 - app.feed_generator - INFO - Updating feed...
+2025-02-28 00:08:51,071 - app.telegram_client - ERROR - Error fetching messages: 'TelegramFeedClient' object has no attribute '_read_cache'
+2025-02-28 00:08:51,072 - app.telegram_client - ERROR - Traceback (most recent call last):
+  File "D:\MyTools\Docker\app\telegram_client.py", line 72, in get_messages
+    cached_messages = self._read_cache()
+                      ^^^^^^^^^^^^^^^^
+AttributeError: 'TelegramFeedClient' object has no attribute '_read_cache'
+
+2025-02-28 00:08:51,072 - app.feed_generator - INFO - Feed updated successfully
+2025-02-28 00:08:51,072 - apscheduler.executors.default - INFO - Job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:08:51 CST)" executed successfully
+2025-02-28 00:09:33,882 - app.scheduler - INFO - Scheduler stopped
+2025-02-28 00:09:33,882 - app.main - INFO - Application shutdown
+2025-02-28 00:09:33,882 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 00:10:45,424 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 00:10:45,425 - app.feed_generator - INFO - Updating feed...
+2025-02-28 00:10:45,425 - app.telegram_client - ERROR - Error fetching messages: 'TelegramFeedClient' object has no attribute '_read_cache'
+2025-02-28 00:10:45,426 - app.telegram_client - ERROR - Traceback (most recent call last):
+  File "D:\MyTools\Docker\app\telegram_client.py", line 72, in get_messages
+    cached_messages = self._read_cache()
+                      ^^^^^^^^^^^^^^^^
+AttributeError: 'TelegramFeedClient' object has no attribute '_read_cache'
+
+2025-02-28 00:10:45,426 - app.feed_generator - WARNING - No messages received
+2025-02-28 00:10:45,427 - apscheduler.scheduler - INFO - Added job "RSSFeedGenerator.update_feed" to job store "default"
+2025-02-28 00:10:45,427 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 00:10:45,428 - app.scheduler - INFO - Scheduler started - updating feed every hour
+2025-02-28 00:10:45,428 - app.main - INFO - Application started
+2025-02-28 00:10:45,428 - apscheduler.executors.default - INFO - Running job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:10:45 CST)" (scheduled at 2025-02-28 00:10:45.424965+08:00)
+2025-02-28 00:10:45,428 - app.feed_generator - INFO - Updating feed...
+2025-02-28 00:10:45,428 - app.telegram_client - ERROR - Error fetching messages: 'TelegramFeedClient' object has no attribute '_read_cache'
+2025-02-28 00:10:45,429 - app.telegram_client - ERROR - Traceback (most recent call last):
+  File "D:\MyTools\Docker\app\telegram_client.py", line 72, in get_messages
+    cached_messages = self._read_cache()
+                      ^^^^^^^^^^^^^^^^
+AttributeError: 'TelegramFeedClient' object has no attribute '_read_cache'
+
+2025-02-28 00:10:45,429 - app.feed_generator - WARNING - No messages received
+2025-02-28 00:10:45,429 - apscheduler.executors.default - INFO - Job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 01:10:45 CST)" executed successfully
+2025-02-28 00:10:58,556 - app.feed_generator - WARNING - No feed available
+2025-02-28 01:10:45,442 - apscheduler.executors.default - INFO - Running job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 02:10:45 CST)" (scheduled at 2025-02-28 01:10:45.424965+08:00)
+2025-02-28 01:10:45,443 - app.feed_generator - INFO - Updating feed...
+2025-02-28 01:10:45,443 - app.telegram_client - ERROR - Error fetching messages: 'TelegramFeedClient' object has no attribute '_read_cache'
+2025-02-28 01:10:45,444 - app.telegram_client - ERROR - Traceback (most recent call last):
+  File "D:\MyTools\Docker\app\telegram_client.py", line 72, in get_messages
+    cached_messages = self._read_cache()
+                      ^^^^^^^^^^^^^^^^
+AttributeError: 'TelegramFeedClient' object has no attribute '_read_cache'
+
+2025-02-28 01:10:45,444 - app.feed_generator - WARNING - No messages received
+2025-02-28 01:10:45,444 - apscheduler.executors.default - INFO - Job "RSSFeedGenerator.update_feed (trigger: interval[1:00:00], next run at: 2025-02-28 02:10:45 CST)" executed successfully
+2025-02-28 01:28:27,388 - app.scheduler - INFO - Scheduler stopped
+2025-02-28 01:28:27,389 - app.main - INFO - Application shutdown
+2025-02-28 01:28:27,390 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 01:33:15,412 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 01:33:15,412 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-28 01:33:15,475 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-28 01:33:15,859 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-28 01:33:15,860 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-28 01:33:15,860 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 01:33:15,860 - app.scheduler - INFO - Scheduler started successfully
+2025-02-28 01:33:15,860 - app.main - INFO - Application started successfully
+2025-02-28 01:33:15,860 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 18:33:15 UTC)" (scheduled at 2025-02-27 17:33:15.411711+00:00)
+2025-02-28 01:33:15,860 - app.scheduler - INFO - Starting feed update at 2025-02-27 17:33:15.860251+00:00
+2025-02-28 01:33:23,702 - app.main - WARNING - No messages available in cache
+2025-02-28 01:33:28,637 - app.main - WARNING - No messages available in cache
+2025-02-28 01:33:31,360 - app.telegram_client - INFO - Retrieved 15 new messages
+2025-02-28 01:33:31,361 - app.scheduler - INFO - Feed updated successfully, got 15 messages
+2025-02-28 01:33:31,361 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 18:33:15 UTC)" executed successfully
+2025-02-28 01:34:39,619 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-28 01:34:39,619 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-28 01:34:39,626 - app.telegram_client - INFO - Telegram client stopped
+2025-02-28 01:34:39,626 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-28 01:34:39,626 - app.main - INFO - Application shutdown successfully
+2025-02-28 01:34:39,626 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 01:44:37,790 - app.main - ERROR - Failed to start application: 'TelegramFeedClient' object has no attribute 'start'
+2025-02-28 01:47:07,286 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 01:47:07,286 - app.main - ERROR - Failed to start application: 'TelegramFeedClient' object has no attribute 'start'
+2025-02-28 01:48:54,793 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 01:48:54,794 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-28 01:48:54,860 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-28 01:48:55,249 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-28 01:48:55,250 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-28 01:48:55,250 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 01:48:55,250 - app.scheduler - INFO - Scheduler started successfully
+2025-02-28 01:48:55,250 - app.main - INFO - Application started successfully
+2025-02-28 01:48:55,250 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 18:48:54 UTC)" (scheduled at 2025-02-27 17:48:54.793537+00:00)
+2025-02-28 01:48:55,250 - app.scheduler - INFO - Starting feed update at 2025-02-27 17:48:55.250863+00:00
+2025-02-28 01:49:11,050 - app.telegram_client - INFO - Retrieved 15 new messages
+2025-02-28 01:49:11,050 - app.scheduler - INFO - Feed updated successfully, got 15 messages
+2025-02-28 01:49:11,050 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 18:48:54 UTC)" executed successfully
+2025-02-28 01:50:36,907 - telethon.client.updates - INFO - Got difference for account updates
+2025-02-28 01:51:24,422 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-28 01:51:24,422 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-28 01:51:24,438 - app.telegram_client - INFO - Telegram client stopped
+2025-02-28 01:51:24,438 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-28 01:51:24,438 - app.main - INFO - Application shutdown successfully
+2025-02-28 01:51:24,438 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 02:04:00,881 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 02:04:00,882 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-28 02:04:00,946 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-28 02:04:01,390 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-28 02:04:01,392 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-28 02:04:01,392 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 02:04:01,392 - app.scheduler - INFO - Scheduler started successfully
+2025-02-28 02:04:01,392 - app.main - INFO - Application started successfully
+2025-02-28 02:04:01,392 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 19:04:00 UTC)" (scheduled at 2025-02-27 18:04:00.881322+00:00)
+2025-02-28 02:04:01,392 - app.scheduler - INFO - Starting feed update at 2025-02-27 18:04:01.392732+00:00
+2025-02-28 02:04:17,436 - app.telegram_client - INFO - Retrieved 15 new messages
+2025-02-28 02:04:17,437 - app.scheduler - INFO - Feed updated successfully, got 15 messages
+2025-02-28 02:04:17,437 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 19:04:00 UTC)" executed successfully
+2025-02-28 02:04:25,897 - app.main - ERROR - Error generating RSS feed: RSSFeedGenerator.__init__() takes 1 positional argument but 2 were given
+2025-02-28 02:04:30,372 - app.main - ERROR - Error generating RSS feed: RSSFeedGenerator.__init__() takes 1 positional argument but 2 were given
+2025-02-28 02:04:45,346 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-28 02:04:45,346 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-28 02:04:45,355 - app.telegram_client - INFO - Telegram client stopped
+2025-02-28 02:04:45,356 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-28 02:04:45,356 - app.main - INFO - Application shutdown successfully
+2025-02-28 02:04:45,356 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 02:06:19,800 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 02:06:19,801 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-28 02:06:19,866 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-28 02:06:20,279 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-28 02:06:20,280 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-28 02:06:20,280 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 02:06:20,280 - app.scheduler - INFO - Scheduler started successfully
+2025-02-28 02:06:20,280 - app.main - INFO - Application started successfully
+2025-02-28 02:06:20,281 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 19:06:19 UTC)" (scheduled at 2025-02-27 18:06:19.800998+00:00)
+2025-02-28 02:06:20,281 - app.scheduler - INFO - Starting feed update at 2025-02-27 18:06:20.281480+00:00
+2025-02-28 02:06:35,940 - app.telegram_client - INFO - Retrieved 15 new messages
+2025-02-28 02:06:35,940 - app.scheduler - INFO - Feed updated successfully, got 15 messages
+2025-02-28 02:06:35,940 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 19:06:19 UTC)" executed successfully
+2025-02-28 02:06:45,882 - app.main - ERROR - Error generating RSS feed: RSSFeedGenerator.__init__() takes 1 positional argument but 2 were given
+2025-02-28 02:07:01,283 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-28 02:07:01,283 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-28 02:07:01,290 - app.telegram_client - INFO - Telegram client stopped
+2025-02-28 02:07:01,290 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-28 02:07:01,290 - app.main - INFO - Application shutdown successfully
+2025-02-28 02:07:01,290 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-28 02:18:25,106 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-28 02:18:25,107 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.124:443/TcpFull...
+2025-02-28 02:18:25,172 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.124:443/TcpFull complete!
+2025-02-28 02:18:25,541 - app.telegram_client - INFO - Telegram client started successfully
+2025-02-28 02:18:25,543 - apscheduler.scheduler - INFO - Added job "FeedScheduler.update_feed" to job store "default"
+2025-02-28 02:18:25,543 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-28 02:18:25,543 - app.scheduler - INFO - Scheduler started successfully
+2025-02-28 02:18:25,543 - app.main - INFO - Application started successfully
+2025-02-28 02:18:25,543 - apscheduler.executors.default - INFO - Running job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 19:18:25 UTC)" (scheduled at 2025-02-27 18:18:25.106397+00:00)
+2025-02-28 02:18:25,544 - app.scheduler - INFO - Starting feed update at 2025-02-27 18:18:25.544453+00:00
+2025-02-28 02:18:35,904 - app.main - WARNING - No messages available in cache
+2025-02-28 02:18:41,205 - app.telegram_client - INFO - Retrieved 15 new messages
+2025-02-28 02:18:41,205 - app.scheduler - INFO - Feed updated successfully, got 15 messages
+2025-02-28 02:18:41,205 - apscheduler.executors.default - INFO - Job "FeedScheduler.update_feed (trigger: interval[1:00:00], next run at: 2025-02-27 19:18:25 UTC)" executed successfully
+2025-02-28 02:19:34,200 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.124:443/TcpFull...
+2025-02-28 02:19:34,200 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.124:443/TcpFull complete!
+2025-02-28 02:19:34,207 - app.telegram_client - INFO - Telegram client stopped
+2025-02-28 02:19:34,207 - app.scheduler - INFO - Scheduler stopped successfully
+2025-02-28 02:19:34,207 - app.main - INFO - Application shutdown successfully
+2025-02-28 02:19:34,207 - apscheduler.scheduler - INFO - Scheduler has been shut down
