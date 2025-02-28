@@ -34,7 +34,11 @@ class RSSFeedGenerator:
                 fe.content(content, type='text')
                 
                 fe.link(href=f"https://t.me/{message.get('channel', 'DuanJuQuark')}/{message['id']}")
-                fe.published(message['date'])
+
+                # 将pubDate也转换为中国时区
+                china_tz = pytz.timezone('Asia/Shanghai')
+                local_time = message['date'].astimezone(china_tz)
+                fe.published(local_time)  # 使用中国时区的时间
 
             logger.debug(f"Added {len(messages)} entries to feed")
         except Exception as e:
@@ -42,8 +46,12 @@ class RSSFeedGenerator:
 
     def build_content(self, message):
         """构建简化的消息内容格式"""
+        # 将UTC时间转换为中国时区
+        china_tz = pytz.timezone('Asia/Shanghai')
+        local_time = message['date'].astimezone(china_tz)
+        
         content_parts = [
-            message['date'].strftime('%a, %d %b %Y %H:%M:%S +0000'),
+            local_time.strftime('%Y-%m-%d %H:%M:%S'),  # 使用中国时区的时间
             message['title']
         ]
         
@@ -52,7 +60,8 @@ class RSSFeedGenerator:
         if message['baidu_link']:
             content_parts.append(f"百度网盘：{message['baidu_link']}")
             
-        content_parts.append(str(message['id']))
+        # content_parts.append(str(message['id']))
+        # content_parts.append(f"消息ID: {message['id']}")  # 如果需要ID，使用这行
         
         return '\n'.join(content_parts)
 
