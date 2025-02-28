@@ -57,8 +57,8 @@ class RSSFeedGenerator:
         
         if message['quark_link']:
             content_parts.append(f"夸克网盘：{message['quark_link']}")
-        if message['baidu_link']:
-            content_parts.append(f"百度网盘：{message['baidu_link']}")
+        # if message['baidu_link']:
+        #     content_parts.append(f"百度网盘：{message['baidu_link']}")
             
         # content_parts.append(str(message['id']))
         # content_parts.append(f"消息ID: {message['id']}")  # 如果需要ID，使用这行
